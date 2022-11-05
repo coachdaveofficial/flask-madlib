@@ -16,9 +16,10 @@ story_2 = Story(
        The best thing to do there is {verb} with the {noun}."""
 )
 story_3 = Story(
-    ["place", "noun", "verb", "adjective", "plural_noun"],
-    """Once upon a TEST in a long-ago {place}, there lived a
-       large {adjective} {noun}. It loved to {verb} {plural_noun}."""
+    ["adjective", "noun", "adjective", "noun", "verb"],
+    """One time in Fortnite I landed right next to a {adjective} {noun}. It was {adjective}. 
+        I ended up finding a {noun} that made me {verb} so I unfortunately didn't get the win. 
+       """
 )
 
 story_dict = {"First": story_1, "Second": story_2, "Third": story_3}
