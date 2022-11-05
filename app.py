@@ -16,9 +16,9 @@ story_2 = Story(
        The best thing to do there is {verb} with the {noun}."""
 )
 story_3 = Story(
-    ["adjective", "noun", "adjective", "noun", "verb"],
-    """One time in Fortnite I landed right next to a {adjective} {noun}. It was {adjective}. 
-        I ended up finding a {noun} that made me {verb} so I unfortunately didn't get the win. 
+    ["adjective", "noun", "plural_noun", "verb"],
+    """One time in Fortnite I landed right next to a {adjective} {noun}.
+        I ended up finding a group of {plural_noun} that made me {verb} so I unfortunately didn't get the win. 
        """
 )
 
