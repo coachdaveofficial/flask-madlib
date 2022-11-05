@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Madlibs</h1>
+    
+    <form method="POST" >
+        <select name="story-form">
+            {% for story, key in stories.items() %}
+            
+                <option value={{story}}>{{story}}</option>
+            
+            {% endfor %}
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>
